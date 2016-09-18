@@ -11,23 +11,21 @@
     android:background="@color/colorPrimary">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Find a walking group"
-        android:id="@+id/button8"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="56dp"
-        android:onClick="OnButton8Click"
-        android:nestedScrollingEnabled="false" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Find a walking group"
+            android:id="@+id/button8"
+            android:onClick="OnListOfWalkingGroupsButtonClick"
+            android:nestedScrollingEnabled="false" android:layout_above="@+id/button9"
+            android:layout_centerHorizontal="true" android:layout_marginBottom="66dp"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="find your way to school"
-        android:id="@+id/button9"
-        android:layout_centerVertical="true"
-        android:layout_alignStart="@+id/button8" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="find your way to school"
+            android:id="@+id/button9"
+            android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:onClick="OnFindYourWayToSchoolButtonClick"/>
 </RelativeLayout>
 
 

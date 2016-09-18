@@ -10,13 +10,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/colorPrimary">
     <Button
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:text="Get to work"
-        android:textSize="20dp"
-        android:id="@+id/button13"
-        android:layout_above="@+id/button2"
-        android:layout_alignStart="@+id/button" />
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Get to work"
+            android:textSize="20dp"
+            android:id="@+id/button13"
+            android:layout_above="@+id/button2"
+            android:layout_alignStart="@+id/button" android:onClick="OnButtonGetToWorkClick"/>
 
     <TextView
         android:layout_width="100dp"
@@ -34,7 +34,7 @@
         android:text="get to school"
         android:id="@+id/button"
         android:textSize="20dp"
-        android:onClick="OnButtonClick"
+        android:onClick="OnButtonGetToSchoolClick"
         android:layout_above="@+id/button13"
         android:layout_centerHorizontal="true" />
 
